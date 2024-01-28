@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+
+* {font-family: 'Readex Pro';}
+
+body {
+    background-color: #002b36;
+  }
+
+p, h1, h2, h3, ul {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a {
+    color: #ffffff !important;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 2%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 25%;
+    height: 250px;
+}
+
+.right {
+    width: 75%;
+    height: 250px;
+    padding: 20px; 
+}
+
+/*#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;} 
+header #MainMenu,
+footer,
+header {
+  display: none;
+}*/
